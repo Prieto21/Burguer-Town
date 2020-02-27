@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Proyecto.master"
+             Title="Master">
+
+    <StackLayout Orientation="Vertical" BackgroundColor="Black">
+        
+        <Button Text="Perfil" x:Name="btnPerfil" Clicked="btnPerfil_Clicked" BackgroundColor="White" TextColor="Black"/>
+        <Button Text="Bebidas" x:Name="bntBebida" Clicked="bntBebida_Clicked" BackgroundColor="White" TextColor="Black"/>
+        <ImageButton Source="carrito.png" x:Name="btnCarrito" Clicked="btnCarrito_Clicked" BackgroundColor="White" HeightRequest="44"/>
+        <Button Text="¿Quienes Somos?" x:Name="btnQuienes" Clicked="btnQuienes_Clicked" BackgroundColor="White" TextColor="Black"/>
+        <Label Text="App Creada Por Sergio Prieto" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+    </StackLayout>
+</ContentPage>

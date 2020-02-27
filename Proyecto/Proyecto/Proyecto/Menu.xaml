@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Proyecto.Menu">
+
+    <ContentPage.Content>
+        <ScrollView>
+
+
+
+            <Grid BackgroundColor="Black" RowSpacing="0" ColumnSpacing="0" Padding="3">
+
+
+                <StackLayout  Grid.Column="0" Grid.Row="0" BackgroundColor="White">
+                    <Label Text="Hamburguesa Sencilla" TextColor="Black" HorizontalOptions="Center" />
+                    
+                    <Image Source="burger1.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$10.500" TextColor="Black" />
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                    
+
+
+
+                </StackLayout>
+
+                <StackLayout  Grid.Column="1" Grid.Row="0"  >
+                    <Label Text="Hamburguesa Sencilla 2.0" TextColor="White" HorizontalOptions="Center" />
+                    
+                    <Image Source="burger2.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$7.500" TextColor="White" />
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+
+
+                </StackLayout>
+
+                <!-- Dos en Dos -->
+
+                <StackLayout  Grid.Column="0" Grid.Row="1" >
+                    <Label Text="Hamburguesa Doble Carne" TextColor="White" HorizontalOptions="Center"/>
+                    <Image Source="burger3.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$12.500" TextColor="White"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <StackLayout  Grid.Column="1" Grid.Row="1" BackgroundColor="White">
+                    <Label Text="Hamburguesa Americana" TextColor="Black" HorizontalOptions="Center"/>
+                    <Image Source="burger4.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$19.500" TextColor="Black"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <!-- Dos en Dos -->
+                <StackLayout  Grid.Column="0" Grid.Row="2" BackgroundColor="White">
+                    <Label Text="Hamburguesa Fit" TextColor="Black" HorizontalOptions="Center"/>
+                    <Image Source="burger5.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$9.850" TextColor="Black"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <StackLayout  Grid.Column="1" Grid.Row="2">
+                    <Label Text="Hamburguesa Godzilla" TextColor="White" HorizontalOptions="Center"/>
+                    <Image Source="burger6.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$17.200" TextColor="White"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <!-- Dos en Dos -->
+                <StackLayout  Grid.Column="0" Grid.Row="3">
+                    <Label Text="Hamburguesa Vegetariana" TextColor="White" HorizontalOptions="Center"/>
+                    <Image Source="burger7.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$6.700" TextColor="White"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <StackLayout  Grid.Column="1" Grid.Row="3"  BackgroundColor="White">
+                    <Label Text="Hamburguesa Ranchera" TextColor="Black" HorizontalOptions="Center"/>
+                    <Image Source="burger8.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$8.320" TextColor="Black"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <!-- Dos en Dos -->
+                <StackLayout  Grid.Column="0" Grid.Row="4" BackgroundColor="White">
+                    <Label Text="Hamburguesa A la Parrilla" TextColor="Black" HorizontalOptions="Center"/>
+                    <Image Source="burger9.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$10.500" TextColor="Black"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <StackLayout  Grid.Column="1" Grid.Row="4">
+                    <Label Text="Hamburguesa Max" TextColor="White" HorizontalOptions="Center"/>
+                    <Image Source="burger10.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$13.500" TextColor="White"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <!-- Dos en Dos -->
+                <StackLayout  Grid.Column="0" Grid.Row="5" >
+                    <Label Text="Hamburguesa Mixta" TextColor="White" HorizontalOptions="Center"/>
+                    <Image Source="burger11.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$15.000" TextColor="White"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                <StackLayout  Grid.Column="1" Grid.Row="5" BackgroundColor="White">
+                    <Label Text="Hamburguesa Vegetariana 2.0" TextColor="Black" HorizontalOptions="Center"/>
+                    <Image Source="burger12.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="$17.550" TextColor="Black"/>
+                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                </StackLayout>
+
+                
+
+
+
+            </Grid>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

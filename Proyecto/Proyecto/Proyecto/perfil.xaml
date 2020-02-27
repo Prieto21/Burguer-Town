@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Proyecto.perfil">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            
+            <StackLayout Padding="30" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Black">
+                <Label Text="Perfil" HorizontalOptions="Center" TextColor="White" FontSize="25"/>
+                <Label Text="----------------------------------------------------------------" TextColor="White"/>
+                <Image Source="perfil.jpg" HeightRequest="200"/>
+                <Label Text="Nombre: Sergio Prieto." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
+                <Label Text="Usuario: Prieto15." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
+                <Label Text="Contraseña: 1234." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
+                <Label Text="Direccion: Calle 14 #39-30." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
+                <Button Text="Editar" BackgroundColor="White" TextColor="Black" FontSize="Small" x:Name="btnEditar" Clicked="btnEditar_Clicked"/>
+
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
