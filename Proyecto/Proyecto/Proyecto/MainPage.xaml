@@ -6,24 +6,39 @@
              mc:Ignorable="d"
              x:Class="Proyecto.MainPage"
              >
-    
-    <StackLayout BackgroundColor="Black">
+    <Grid BackgroundColor="Black">
+        <Image Source="logooo.png" Aspect="AspectFit"/>
+        <Grid>
 
-        <Image Source="logooo.png" HorizontalOptions="Center"  VerticalOptions="CenterAndExpand"></Image>
-        <Label Text="Burguer Town" TextColor="White"  FontSize="45" HorizontalOptions="Center"></Label>
+            <StackLayout BackgroundColor="Transparent">
 
-        <Label Text="Eres Vip tu lugar es aquí" TextColor="White" FontSize="15" HorizontalOptions="Center"></Label>
-        <Button 
+                
+
+                <Label Text="Burguer Town" TextColor="White" FontSize="45" HorizontalOptions="Center" VerticalOptions="Fill"></Label>
+
+
+
+                <Label Text="Eres Vip tu lugar es aquí" TextColor="White" FontSize="15" VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Label>
+
+
+
+                <Button 
                 x:Name="btnLogin" 
                 Text="Comenzar" 
-                BackgroundColor="White" 
-                TextColor="Black" 
+                BackgroundColor="Black" 
+                TextColor="White"
+            BorderColor="White" 
+            BorderWidth="1"
+            CornerRadius="10"
                 HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
+                
                 
                 Clicked="btnLogin_Clicked"></Button>
-    </StackLayout>
- 
-   
+
+            </StackLayout>
+        </Grid>
+    </Grid>
+    
+
 
 </ContentPage>
