@@ -9,43 +9,47 @@
         <Grid BackgroundColor="Black">
 
             <Image Source="logooo.png" Aspect="AspectFit"/>
-
+            <BoxView Opacity="0.7" Color="Black"/>
             <Grid>
-                <Frame BorderColor="Black" BackgroundColor="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="250"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                
                     
-                    <StackLayout Padding="15">
+                    <StackLayout Padding="15" Grid.Row="1">
 
                         
 
                         <Label Text="Registrarse" TextColor="White" FontSize="45" HorizontalOptions="Center"/>
-                    
-                    
-                
-                
-                <Label Text=""/>
-                    <Label Text=""/>
-                    
-                    
-                        <Label Text="Usuario" TextColor="Black" FontSize="25" HorizontalOptions="Center"/>
-                <Frame BackgroundColor="Transparent" Padding="10" BorderColor="White" HasShadow="True" CornerRadius="30">
-                        <Entry Placeholder="Ingrese Usuario" PlaceholderColor="White" />
+
+
+
+
+                </StackLayout >
+
+                <StackLayout Grid.Row="2"  HorizontalOptions="Center">
+
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="50" Padding="5">
+                        <Entry Placeholder="Ingrese Usuario" PlaceholderColor="White" TextColor="White"/>
                     </Frame>
-                    <Label Text=""/>
-                    <Label Text="Contraseña" TextColor="Black" FontSize="25" HorizontalOptions="Center"/>
 
-                <Frame BackgroundColor="Transparent" Padding="10" BorderColor="White" HasShadow="True" CornerRadius="30">
-                        <Entry Placeholder="Ingrese Contraseña" PlaceholderColor="White" IsPassword="True"/>
+                    
+
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="50" Padding="5">
+                        <Entry Placeholder="Ingrese Contraseña" PlaceholderColor="White" IsPassword="True" TextColor="White"/>
+
                     </Frame>
-                    <Label Text=""/>
-                    <Label Text=""/>
-                <Label Text=""/>
 
-
-                <Button Text="Entrar" BackgroundColor="Black" Padding="-200" VerticalOptions="End" HorizontalOptions="Center" TextColor="White" 
+                </StackLayout>
+                <StackLayout Grid.Row="3">
+                        <Button Text="Entrar" BackgroundColor="Transparent" Padding="-200" VerticalOptions="End" HorizontalOptions="Center" TextColor="White" 
                             BorderColor="White" BorderWidth="1" CornerRadius="10" x:Name="btnMenu" Clicked="btnMenu_Clicked"/>
                 
             </StackLayout>
-            </Frame>
+            
         </Grid>
         </Grid>
     </ContentPage.Content>
