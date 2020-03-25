@@ -7,19 +7,27 @@
              x:Class="Proyecto.perfil">
     <ContentPage.Content>
         <Grid BackgroundColor="Black">
-            
-            <StackLayout Padding="30" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Black">
+
+            <Image Source="logooo.jpg" Aspect="AspectFit"/>
+            <BoxView Opacity="0.7" Color="Black"/>
+
+            <Grid Padding="15">
+                <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="50">
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Transparent">
                 <Label Text="Perfil" HorizontalOptions="Center" TextColor="White" FontSize="25"/>
-                <Label Text="----------------------------------------------------------------" TextColor="White"/>
-                <Image Source="perfil.jpg" HeightRequest="200"/>
+                        <Label Text="\n"/>
+                        <Image Source="perfil.jpg" HeightRequest="200"/>
                 <Label Text="Nombre: Sergio Prieto." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
                 <Label Text="Usuario: Prieto15." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
                 <Label Text="Contraseña: 1234." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
                 <Label Text="Direccion: Calle 14 #39-30." HorizontalOptions="Center" TextColor="White" FontSize="15"/>
-                <Button Text="Editar" BackgroundColor="White" TextColor="Black" FontSize="Small" x:Name="btnEditar" Clicked="btnEditar_Clicked"/>
+                <Button Text="Editar" BackgroundColor="Transparent" TextColor="White" BorderColor="White" BorderWidth="1"
+                        CornerRadius="20" FontSize="Small" x:Name="btnEditar" Clicked="btnEditar_Clicked"/>
 
 
             </StackLayout>
+                </Frame>
+            </Grid>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -9,8 +9,18 @@
         <ScrollView>
             <Grid BackgroundColor="Black">
 
-                
-                <StackLayout VerticalOptions="Fill">
+                <Image Source="logooo.jpg" Aspect="AspectFit"/>
+                <BoxView Opacity="0.7" Color="Black"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+                    </Grid.RowDefinitions>
+
+
+                    <StackLayout VerticalOptions="Fill">
                     
                     <ImageButton Source="carrito.png" HeightRequest="25" BackgroundColor="White"/>
                     
@@ -57,6 +67,7 @@
 
 
 
+            </Grid>
             </Grid>
         </ScrollView>
     </ContentPage.Content>

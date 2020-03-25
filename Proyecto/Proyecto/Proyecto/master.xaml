@@ -7,12 +7,29 @@
              x:Class="Proyecto.master"
              Title="Master">
 
-    <StackLayout Orientation="Vertical" BackgroundColor="Black">
-        
-        <Button Text="Perfil" x:Name="btnPerfil" Clicked="btnPerfil_Clicked" BackgroundColor="White" TextColor="Black"/>
-        <Button Text="Bebidas" x:Name="bntBebida" Clicked="bntBebida_Clicked" BackgroundColor="White" TextColor="Black"/>
-        <ImageButton Source="carrito.png" x:Name="btnCarrito" Clicked="btnCarrito_Clicked" BackgroundColor="White" HeightRequest="44"/>
-        <Button Text="¿Quienes Somos?" x:Name="btnQuienes" Clicked="btnQuienes_Clicked" BackgroundColor="White" TextColor="Black"/>
-        <Label Text="App Creada Por Sergio Prieto" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"/>
-    </StackLayout>
+    <Grid BackgroundColor="Black">
+
+        <Image Source="logooo.jpg" Aspect="AspectFit"/>
+        <BoxView Opacity="0.7" Color="Black"/>
+
+        <Grid>
+            <StackLayout Orientation="Vertical" Padding="5" BackgroundColor="Transparent">
+                <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="20" Padding="10">
+                    <Button Text="Perfil" x:Name="btnPerfil" Clicked="btnPerfil_Clicked" BackgroundColor="Transparent" TextColor="White"/>
+                </Frame>
+                <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="20" Padding="10">
+                    <Button Text="Bebidas" x:Name="bntBebida" Clicked="bntBebida_Clicked" BackgroundColor="Transparent" TextColor="White"/>
+                </Frame>
+                <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="20" Padding="10">
+                    <ImageButton Source="carrito.png" x:Name="btnCarrito" Clicked="btnCarrito_Clicked" BackgroundColor="Transparent" HeightRequest="44"/>
+                </Frame>
+                <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="20" Padding="10">
+                    <Button Text="¿Quienes Somos?" x:Name="btnQuienes" Clicked="btnQuienes_Clicked" BackgroundColor="Transparent" TextColor="White"/>
+                </Frame>
+
+
+                <Label Text="App Creada Por Sergio Prieto" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+            </StackLayout>
+        </Grid>
+    </Grid>
 </ContentPage>

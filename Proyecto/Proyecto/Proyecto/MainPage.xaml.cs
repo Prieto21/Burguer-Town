@@ -20,7 +20,7 @@ namespace Proyecto
              
         private async void btnLogin_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Login());
+            await Navigation.PushAsync(new contiene());
         }
     }
 }
