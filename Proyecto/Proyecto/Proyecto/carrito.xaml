@@ -20,47 +20,69 @@
                     </Grid.RowDefinitions>
 
 
-                    <StackLayout VerticalOptions="Fill">
                     
-                    <ImageButton Source="carrito.png" HeightRequest="25" BackgroundColor="White"/>
+                        <StackLayout  Grid.Column="0" Grid.Row="0">
+                        <Label Text="Hamburguesa Sencilla" TextColor="White" HorizontalOptions="Center" />
+
+                        <Image Source="burger3.png" VerticalOptions="CenterAndExpand"/>
+                        
+                        <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
+                        <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
+                        <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
+
+
+
+
+                    </StackLayout>
                     
-                    <Label Text="Carrito De Compra" HorizontalOptions="Center" TextColor="White" FontSize="25"/>
-                    <Label Text="----------------------------------------------------------------" TextColor="White" HorizontalOptions="Center"/>
 
-                </StackLayout>
 
-                <StackLayout Padding="100">
-                    <Label Text="Hamburguesa Doble Carne" TextColor="White" HorizontalOptions="Center"/>
-                    <Image Source="burger3.png" VerticalOptions="CenterAndExpand"/>
-
-                    <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
-                    <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
-                    <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
-                    <!--Next-->
-                    <Label Text=""/>
-                    <Label Text="Cachaga" TextColor="White" HorizontalOptions="Center"/>
-                    <Image Source="bebida1.png" VerticalOptions="CenterAndExpand"/>
-                    <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
-                    <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
-                    <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
-                    <!--Next-->
-                    <Label Text="Hamburguesa Americana" TextColor="White" HorizontalOptions="Center"/>
-                    <Image Source="burger4.png" VerticalOptions="CenterAndExpand"/>
-
-                    <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
-                    <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
-                    <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
-                    <!--Next-->
-                    <Label Text=""/>
-                    <Label Text="Red Bull" TextColor="White" HorizontalOptions="Center"/>
-                    <Image Source="bebida7.png" VerticalOptions="CenterAndExpand"/>
-                    <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
-                    <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
-                    <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
                     
+                        <StackLayout  Grid.Column="1" Grid.Row="0">
+                        <Label Text="Cachaga" TextColor="White" HorizontalOptions="Center" />
+
+                            <Image Source="bebida1.png" VerticalOptions="CenterAndExpand"/>
+
+                            <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
+                            <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
+                            <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
+
+
+
+
+                        </StackLayout>
                     
-                </StackLayout>
-                <StackLayout VerticalOptions="EndAndExpand" Padding="20">
+
+                    <StackLayout  Grid.Column="0" Grid.Row="1">
+                        <Label Text="Hamburguesa Fit" TextColor="White" HorizontalOptions="Center" />
+
+                        <Image Source="burger5.png" VerticalOptions="CenterAndExpand"/>
+                        
+                        <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
+                        <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
+                        <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
+
+
+
+
+                    </StackLayout>
+
+                    <StackLayout  Grid.Column="1" Grid.Row="1">
+                        <Label Text="Coca cola personal" TextColor="White" HorizontalOptions="Center" />
+
+                        <Image Source="bebida6.png" VerticalOptions="CenterAndExpand"/>
+                        
+                        <Button Text="-" BackgroundColor="DarkRed"  HeightRequest="40" WidthRequest="60"/>
+                        <Entry Placeholder="1" BackgroundColor="White" Keyboard="Numeric"  HeightRequest="40"/>
+                        <Button Text="+" BackgroundColor="YellowGreen"  HeightRequest="40" WidthRequest="60"/>
+
+
+
+
+                    </StackLayout>
+
+
+                    <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="End"  Grid.Column="1" Grid.Row="2">
                     <Button BackgroundColor="White" TextColor="Black" Text="Crear Pedido" x:Name="btnPedido" Clicked="btnPedido_Clicked" HeightRequest="50"/>
                 </StackLayout>
            

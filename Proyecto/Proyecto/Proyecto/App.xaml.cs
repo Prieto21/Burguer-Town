@@ -11,7 +11,7 @@ namespace Proyecto
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new contiene());
+            MainPage = new NavigationPage(new Inicio());
         }
 
         protected override void OnStart()

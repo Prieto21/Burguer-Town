@@ -8,68 +8,106 @@
     <ContentPage.Content>
         <ScrollView>
 
+            <Grid BackgroundColor="Black">
+
+                <Image Source="logooo.jpg" Aspect="AspectFit"/>
+                <BoxView Opacity="0.7" Color="Black"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="30">
+                        <StackLayout  Grid.Column="0" Grid.Row="0">
+                            <Label Text="Cachaga" TextColor="White" HorizontalOptions="Center" />
+
+                            <Image Source="bebida1.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="$17.500" TextColor="White" />
+                            <ImageButton Source="carrito.png" 
+                                         BackgroundColor="Goldenrod"
+                                         CornerRadius="50"  HeightRequest="30" />
 
 
-            <Grid BackgroundColor="Black" RowSpacing="0" ColumnSpacing="0" Padding="3">
 
 
-                <StackLayout  Grid.Column="0" Grid.Row="0" BackgroundColor="White">
-                    <Label Text="Cachaga" TextColor="Black" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </Frame>
 
-                    <Image Source="bebida1.png" VerticalOptions="CenterAndExpand"/>
-                    <Label Text="$17.500" TextColor="Black" />
-                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
-
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="30"  Grid.Column="1" Grid.Row="0"  >
+                        <StackLayout >
 
 
+                            <Label Text="Pepsi" TextColor="White"  HorizontalOptions="Center"/>
 
-                </StackLayout>
-
-                <StackLayout  Grid.Column="1" Grid.Row="0"  >
-                    <Label Text="Pepsi" TextColor="White"  HorizontalOptions="Center"/>
-
-                    <Image Source="bebida3.png" VerticalOptions="CenterAndExpand"/>
-                    <Label Text="$4.600" TextColor="White" />
-                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
+                            <Image Source="bebida3.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="$4.600" TextColor="White" />
 
 
-                </StackLayout>
+                            <ImageButton Source="carrito.png" 
+                                         BackgroundColor="Goldenrod"
+                                         CornerRadius="50"  HeightRequest="30" />
 
-                <!-- Dos en Dos -->
+                        </StackLayout>
+                    </Frame>
 
-                <StackLayout  Grid.Column="0" Grid.Row="1" >
-                    <Label Text="Coca Cola-Lata" TextColor="White" HorizontalOptions="Center"/>
-                    <Image Source="bebida4.png" VerticalOptions="CenterAndExpand"/>
-                    <Label Text="$8.500" TextColor="White"/>
-                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
-                </StackLayout>
+                    <!-- Dos en Dos -->
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="30"  Grid.Column="0" Grid.Row="1" >
+                        <StackLayout>
 
-                <StackLayout  Grid.Column="1" Grid.Row="1" BackgroundColor="White">
-                    <Label Text="Coca Cola 3L" TextColor="Black" HorizontalOptions="Center"/>
-                    <Image Source="bebida5.png" VerticalOptions="CenterAndExpand"/>
-                    <Label Text="$10.250" TextColor="Black"/>
-                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
-                </StackLayout>
+                            <Label Text="Coca Cola-Lata" TextColor="White" HorizontalOptions="Center"/>
+                            <Image Source="bebida4.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="$8.500" TextColor="White"/>
+                            <ImageButton Source="carrito.png" 
+                                         BackgroundColor="Goldenrod"
+                                         CornerRadius="50"  HeightRequest="30" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="30" Grid.Column="1" Grid.Row="1" >
+                        <StackLayout>
 
-                <!-- Dos en Dos -->
-                <StackLayout  Grid.Column="0" Grid.Row="2" BackgroundColor="White">
-                    <Label Text="Coca Cola Personal" TextColor="Black" HorizontalOptions="Center"/>
-                    <Image Source="bebida6.png" VerticalOptions="CenterAndExpand"/>
-                    <Label Text="$3.850" TextColor="Black"/>
-                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
-                </StackLayout>
 
-                <StackLayout  Grid.Column="1" Grid.Row="2">
-                    <Label Text="Red Bull" TextColor="White" HorizontalOptions="Center"/>
-                    <Image Source="bebida7.png" VerticalOptions="CenterAndExpand"/>
-                    <Label Text="$6.200" TextColor="White"/>
-                    <ImageButton Source="carrito.png" BackgroundColor="YellowGreen" HeightRequest="30" />
-                </StackLayout>
 
-                
+                            <Label Text="Coca Cola 3L" TextColor="White" HorizontalOptions="Center"/>
+                            <Image Source="bebida5.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="$10.250" TextColor="White"/>
+
+                            <ImageButton Source="carrito.png" 
+                                         BackgroundColor="Goldenrod"
+                                         CornerRadius="50"  HeightRequest="30" />
+                        </StackLayout>
+                    </Frame>
+                    <!-- Dos en Dos -->
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="30" Grid.Column="0" Grid.Row="2"  >
+                        <StackLayout >
+
+
+                            <Label Text="Coca Cola Personal" TextColor="White" HorizontalOptions="Center"/>
+                            <Image Source="bebida6.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="$3.850" TextColor="White"/>
+                            <ImageButton Source="carrito.png" 
+                                         BackgroundColor="Goldenrod"
+                                         CornerRadius="50"  HeightRequest="30" />
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" BorderColor="White" CornerRadius="30" Grid.Column="1" Grid.Row="2" >
+                        <StackLayout  >
+
+                            <Label Text="Red Bull" TextColor="White" HorizontalOptions="Center"/>
+                            <Image Source="bebida7.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="$6.200" TextColor="White"/>
+                            <ImageButton Source="carrito.png" 
+                                         BackgroundColor="Goldenrod"
+                                         CornerRadius="50"  HeightRequest="30" />
+                        </StackLayout>
+                    </Frame>
+                 
+                   
+                </Grid>
 
             </Grid>
-
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
