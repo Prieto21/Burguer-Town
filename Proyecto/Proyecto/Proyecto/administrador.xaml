@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Proyecto.administrador">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <Grid BackgroundColor="Black">
+
+                <Image Source="logooo.jpg" Aspect="AspectFit"/>
+                <BoxView Opacity="0.7" Color="Black"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Column="0" Grid.Row="0">
+                        <Label Text="PEDIDOS ACTIVOS" TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+                    </StackLayout>
+                    <Frame Grid.Column="0" Grid.Row="1" BackgroundColor="Transparent" BorderColor="White" CornerRadius="30">
+                        <StackLayout>
+                            <Label Text="uihiuh:" TextColor="White" FontSize="15"/>
+                           
+                        </StackLayout>
+                    </Frame>
+
+                    <StackLayout Grid.Column="0" Grid.Row="2">
+                        <Label Text="PEDIDOS CANCELADOS" TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+                    </StackLayout>
+
+                    <Frame Grid.Column="0" Grid.Row="3" BackgroundColor="Transparent" BorderColor="White" CornerRadius="30">
+                        <StackLayout>
+                            <Label Text="uihiuh:" TextColor="White" FontSize="15"/>
+
+                        </StackLayout>
+                    </Frame>
+
+
+
+                </Grid>
+
+            </Grid>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
